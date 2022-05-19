@@ -1,0 +1,195 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+img {
+  margin: 10px auto;
+  height: auto;
+  width: auto;
+}
+
+ul {
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+}
+
+ul li{
+  padding: 15px;
+  border: 2px solid black;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/*Sizing*/
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main{
+  background-color: #ffc200;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  padding: 50px;
+
+}
+
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.split{
+  display: inline-flex;
+  max-width: 900px;
+  margin: auto;
+}
+
+.secondary {
+  background-color: white;
+}
+
+/*Header Section*/
+.header {
+  padding: 30px 0px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header li a {
+  color: #333;
+  margin:0;
+  border:0px;
+}
+
+/*Jumbotron Section*/
+.jumbotron {
+  background-color: #fff;
+  text-align: center;
+  padding: 300px;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.jumbotron h2 span {
+  color:#ffc200;
+}
+
+.jumbotron p {
+  text-shadow: 0 0;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/*Banner Section*/
+.banner {
+  background-color: rgb(112, 112, 112);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+/*Expertise Section*/
+.cards {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#recent {
+  padding: 20px;
+  background-color:#ffc200;
+  margin: 0;
+  text-align: center;
+}
+
+#work {
+  padding: 20px;
+  background-color: white;
+  margin: 0;
+  text-align: center;
+}
+
+/*Footer Section*/
+.footer {
+  padding: 60px 0px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.footer p {
+  font-size:12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.left{
+  width: 30%;
+  height: 500px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.right{
+  width: 70%;
+  min-height: 40px;
+  max-width: 600px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: -100px;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.right h2{
+  font-size: 40px;
+}
+
+.right p{
+  margin: 20px 0;
+}
+
+.tag{
+  display: inline-flex;
+  border: 2px solid black;
+  padding: 5px;
+ 
+}
+
+.tag:hover{
+  background-color: red;
+}
