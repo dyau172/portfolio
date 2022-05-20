@@ -94,6 +94,11 @@ h1 {
   color:#ffc200;
 }
 
+.jumbotron h3{
+  color:#666;
+  font-size: 30px;
+}
+
 .jumbotron p {
   text-shadow: 0 0;
   font-size: 16px;
@@ -113,14 +118,15 @@ h1 {
 .cards {
   background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .col {
   display: inline-flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 10px;
 }
 
 #recent {
@@ -156,11 +162,26 @@ h1 {
   margin-left: 20px;
 }
 
+.group{
+ align-self: flex-end;
+}
+
+.link-block{
+  background-color: #333;
+  
+}
+
 .left{
   width: 30%;
   height: 500px;
   border-radius: 8px;
   border: 2px solid black;
+}
+
+.side-nav{
+  position: fixed;
+  width: 10px;
+  margin-top: 300px;
 }
 
 .right{
@@ -187,9 +208,19 @@ h1 {
   display: inline-flex;
   border: 2px solid black;
   padding: 5px;
- 
+  margin: 5px;
 }
 
 .tag:hover{
-  background-color: red;
+  background-color: lightyellow;
+}
+
+.work-block{
+  height: 350px;
+  width: 200px;
+  background-color: slategray;
+  padding: 15px;
+  margin: 15px;
+  display: flexbox;
+  
 }
