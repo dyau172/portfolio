@@ -81,7 +81,7 @@ h1 {
 .jumbotron {
   background-color: #fff;
   text-align: center;
-  padding: 300px;
+  padding: 200px 50px;
 }
 
 .jumbotron h2 {
@@ -126,6 +126,9 @@ h1 {
   flex-direction: column;
   justify-content: center;
   padding: 10px;
+}
+#profile-img img{
+  border-radius: 50%;
 }
 
 #recent {
