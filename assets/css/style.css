@@ -46,7 +46,6 @@ h1 {
 
 
 .spacer {
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -172,10 +171,20 @@ h1 {
 }
 
 .left{
-  width: 30%;
-  height: 500px;
+  height: auto;
+  width: auto;
   border-radius: 8px;
   border: 2px solid black;
+}
+
+.left img{
+  height:300px;
+  width: auto;
+  padding: 5px;
+}
+
+.left img:hover{
+  transform: scale(3);
 }
 
 .side-nav{
@@ -185,22 +194,32 @@ h1 {
 }
 
 .right{
-  width: 70%;
-  min-height: 40px;
-  max-width: 600px;
   display: flex;
-  align-content: center;
-  justify-content: center;
+  flex-direction: column;
   margin-left: -100px;
   border: 2px solid black;
-  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.247);
 }
 
-.right h2{
+.right-bottom{
+  
+  
+  
+}
+
+.content{
+  min-height: 40px;
+  max-width: 600px;
+  padding: 15px;
+  
+  align-content: center;
+  justify-content: center;
+}
+.content h2{
   font-size: 40px;
 }
 
-.right p{
+.content p{
   margin: 20px 0;
 }
 
@@ -217,8 +236,8 @@ h1 {
 
 .work-block{
   height: 350px;
-  width: 200px;
-  background-color: slategray;
+  width: 400px;
+  background-color: #ffc200;
   padding: 15px;
   margin: 15px;
   display: flexbox;
