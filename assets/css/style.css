@@ -30,16 +30,6 @@ h1 {
 }
 
 
-.spacer {
-  margin: auto;
-}
-
-.split{
-  display: inline-flex;
-  max-width: 900px;
-  margin: auto;
-}
-
 .secondary {
   background-color: white;
 }
@@ -178,10 +168,6 @@ h1 {
   padding: 5px;
 }
 
-.left img:hover{
-  transform: scale(3);
-}
-
 .side-nav ul{
   position: fixed;
   width: 10px;
@@ -190,6 +176,17 @@ h1 {
 
 .side-nav li{
   list-style-type:none;
+}
+
+.split{
+  display: inline-flex;
+  max-width: 900px;
+  margin: auto;
+}
+
+.spotlight h2{
+text-align: center;
+font-size: 50px ;
 }
 
 .right{
