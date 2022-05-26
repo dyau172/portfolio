@@ -1,7 +1,20 @@
 html, body, p, h1, h2 {
   margin: 0;
   padding: 0;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family:'Libre Baskerville', sans-serif;
+}
+
+p{
+  font-size: 20px;
+}
+
+h2{
+  font-size: 50px;
+  padding:10px;
+}
+
+h3{
+  font-size: 25px;
 }
 
 img {
@@ -91,7 +104,7 @@ h1 {
 .banner {
   background-color: rgb(112, 112, 112);
   color: #fff;
-  padding: 100px 20px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -111,6 +124,7 @@ h1 {
 }
 #profile-img img{
   border-radius: 50%;
+  margin: 150px auto 0 auto;
 }
 
 #recent {
